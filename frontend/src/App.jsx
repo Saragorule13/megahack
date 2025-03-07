@@ -4,6 +4,7 @@ import { SignIn, SignUp, ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } 
 import Login from './pages/Login'
 import Home from './pages/Home'
 import Landing from './pages/Landing'
+import Items from './pages/Items'
 
 // Protected route component
 const ProtectedRoute = ({ children }) => {
@@ -19,11 +20,12 @@ const ProtectedRoute = ({ children }) => {
 
 export default function App() {
   return (
-    <div className='font-bold'>
+    <div className="font-bold">
       <Routes>
         <Route path='/' element={<Landing/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/items' element={<Items/>} />
         <Route path='/markets' element={
           <ProtectedRoute>
             <h1>Markets Page</h1>
@@ -38,5 +40,5 @@ export default function App() {
         <Route path='/sign-up/*' element={<SignUp routing="path" path="/sign-up" />} />
       </Routes>
     </div>
-  )
+  );
 }

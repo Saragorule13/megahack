@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function Location() {
   return (
-    <div>
-      <section id="search" class="py-12 md:py-16 bg-white dark:bg-gray-900">
+    <div className='border'>
+      <section id="search" class="py-24 md:py-24 bg-white dark:bg-gray-900">
     <div class="container mx-auto px-4" id="el-hofwi0w9">
       <div class="max-w-4xl mx-auto" id="el-ds43ad6j">
         <div class="text-center mb-8" id="el-4c6vb6i8">
-          <h2 class="text-3xl md:text-4xl font-bold text-green-800 dark:text-green-300 mb-3" id="el-qr71hbxy">Find Markets Near You</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-green-800 dark:text-green-300 mt-10 mb-3" id="el-qr71hbxy">Find Markets Near You</h2>
           <p class="text-gray-600 dark:text-gray-300 text-lg" id="el-90bk1lvu">Discover fresh produce, artisanal goods, and sustainable products at your local farmers markets</p>
         </div>
         
         {/* <!-- Search Form --> */}
         <div class="bg-green-50 dark:bg-gray-800 rounded-xl p-6 md:p-8 shadow-lg" id="el-72n8kybq">
           <form class="space-y-6" id="el-x7v3cnre">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="el-zv7ufp56">
+            <div class=" gap-4" id="el-zv7ufp56">
               {/* <!-- Location Search --> */}
               <div class="relative" id="el-2n0l37zz">
                 <label for="location" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" id="el-dfgn8agb">Location</label>
@@ -38,10 +38,6 @@ export default function Location() {
               </div>
             </div>
             
-            {/* <!-- Advanced Search Options --> */}
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="el-5a2336r2">
-            
-            </div>
             
             {/* <!-- Search Button --> */}
             <div class="flex justify-center pt-2" id="el-9z74n0zi">
