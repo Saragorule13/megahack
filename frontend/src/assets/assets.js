@@ -1,13 +1,19 @@
 import leaves from './leaves.png';
-import searchIcon from './search-icon.png';
-import buyIcon from './buy-icon.png';
-import sellIcon from './sell-icon.png';
-import profileIcon from './profile-icon.png';
+import asparagus from './asparagus.jpg';
+import cucumber from './cucumber.jpg';
+import lauki from './lauki.jpg';
+import karela from './karela.jpg';
+import brinjal from './brinjal.jpg';
+import okra from './okra.jpg';
+import beans from './beans.jpg';
 
 export {
   leaves,
-  searchIcon,
-  buyIcon,
-  sellIcon,
-  profileIcon,
+  asparagus,
+  cucumber,
+  lauki,
+  karela,
+  brinjal,
+  okra,
+  beans
 };
