@@ -24,25 +24,27 @@ const Navbar = () => {
   };
 
   return (
-    <header id="header" className="bg-green-50 fixed w-full z-30 top-0 shadow">
+    <header id="header" className="bg-transparent fixed w-full z-30 top-0 shadow backdrop-blur-md">
       <nav className="container mx-auto px-4 py-3" id="el-mj0l0sjt">
         <div className="flex items-center justify-between" id="el-3uddywkl">
           <div className="flex items-center space-x-2" id="el-t7wrapyd">
             <Link to="/">
+              <div className="flex items-center space-x-2">
               <img src={Logo} className="w-12 h-12" alt="logo"/>
-              <span className="text-xl font-bold text-green-800" id="el-742nk914">Kisan Kart</span>
+              <span className="text-xl font-bold text-white" id="el-742nk914">Kisan Kart</span>
+              </div>
             </Link>
           </div>
           
           <ul className="hidden md:flex items-center space-x-8" id="el-tw79rgzv">
-            <li id="el-293p54ih"><Link to="/" className="text-green-800 hover:text-green-600 transition-colors duration-300">Home</Link></li>
-            <li id="el-9xb85dn8"><Link to="/markets" className="text-green-800 hover:text-green-600 transition-colors duration-300">Markets</Link></li>
-            <li id="el-0pp0a1my"><Link to="/vendors" className="text-green-800 hover:text-green-600 transition-colors duration-300">Vendors</Link></li>
-            <li id="el-q2cu62o3"><Link to="/about" className="text-green-800 hover:text-green-600 transition-colors duration-300">About</Link></li>
+            <li id="el-293p54ih"><Link to="/" className="text-white hover:text-green-600 transition-colors duration-300">Home</Link></li>
+            <li id="el-9xb85dn8"><Link to="/markets" className="text-white hover:text-green-600 transition-colors duration-300">Markets</Link></li>
+            <li id="el-0pp0a1my"><Link to="/vendors" className="text-white hover:text-green-600 transition-colors duration-300">Vendors</Link></li>
+            <li id="el-q2cu62o3"><Link to="/about" className="text-white hover:text-green-600 transition-colors duration-300">About</Link></li>
           </ul>
           
           <div className="hidden md:flex items-center space-x-4" id="el-k2s75zti">
-            <Link to="/search" className="text-green-800 hover:text-green-600 transition-colors duration-300">
+            <Link to="/search" className="text-white hover:text-green-600 transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -64,7 +66,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   to="/sign-in"
-                  className="text-green-800 hover:text-green-600 transition-colors duration-300"
+                  className="text-white hover:text-green-600 transition-colors duration-300"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -98,7 +100,7 @@ const Navbar = () => {
           
           <button
             onClick={toggleMenu}
-            className="md:hidden text-green-800 focus:outline-none"
+            className="md:hidden text-white focus:outline-none"
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
           >
@@ -113,10 +115,10 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
           <ul className="mt-4 space-y-4 pb-3">
-            <li><Link to="/" className="block text-green-800 hover:text-green-600 transition-colors duration-300">Home</Link></li>
-            <li><Link to="/markets" className="block text-green-800 hover:text-green-600 transition-colors duration-300">Markets</Link></li>
-            <li><Link to="/vendors" className="block text-green-800 hover:text-green-600 transition-colors duration-300">Vendors</Link></li>
-            <li><Link to="/about" className="block text-green-800 hover:text-green-600 transition-colors duration-300">About</Link></li>
+            <li><Link to="/" className="block text-white hover:text-green-600 transition-colors duration-300">Home</Link></li>
+            <li><Link to="/markets" className="block text-white hover:text-green-600 transition-colors duration-300">Markets</Link></li>
+            <li><Link to="/vendors" className="block text-white hover:text-green-600 transition-colors duration-300">Vendors</Link></li>
+            <li><Link to="/about" className="block text-white hover:text-green-600 transition-colors duration-300">About</Link></li>
             {isSignedIn ? (
               <>
                 <li className="border-t pt-2">
@@ -130,14 +132,14 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li>
-                  <Link to="/profile" className="block text-green-800 hover:text-green-600 transition-colors duration-300">
+                  <Link to="/profile" className="block text-white hover:text-green-600 transition-colors duration-300">
                     Profile Settings
                   </Link>
                 </li>
                 <li>
                   <button
                     onClick={handleSignOut}
-                    className="block w-full text-left text-green-800 hover:text-green-600 transition-colors duration-300"
+                    className="block w-full text-left text-white hover:text-green-600 transition-colors duration-300"
                   >
                     Sign Out
                   </button>
@@ -145,7 +147,7 @@ const Navbar = () => {
               </>
             ) : (
               <li>
-                <Link to="/sign-in" className="block text-green-800 hover:text-green-600 transition-colors duration-300">
+                <Link to="/sign-in" className="block text-white hover:text-green-600 transition-colors duration-300">
                   Sign In
                 </Link>
               </li>
