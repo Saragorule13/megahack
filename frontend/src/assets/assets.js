@@ -6,6 +6,11 @@ import karela from './karela.jpg';
 import brinjal from './brinjal.jpg';
 import okra from './okra.jpg';
 import beans from './beans.jpg';
+import mango from './mango.jpg';
+import watermelon from './watermelon.jpg';
+import pineapple from './pineapple.jpg';
+import musk from './musk.jpg';
+import jamun from './jamun.jpg';
 
 export {
   leaves,
@@ -15,5 +20,10 @@ export {
   karela,
   brinjal,
   okra,
-  beans
+  beans,
+  mango,
+  watermelon,
+  pineapple,
+  musk,
+  jamun
 };
