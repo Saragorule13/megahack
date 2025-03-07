@@ -1,26 +1,21 @@
 import React from "react";
+import Logo from "../../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <header id="header" class="bg-green-50">
+    <header id="header" class="bg-green-50 fixed w-full z-30 top-0 shadow">
     <nav class="container mx-auto px-4 py-3" id="el-mj0l0sjt">
       <div class="flex items-center justify-between" id="el-3uddywkl">
         <div class="flex items-center space-x-2" id="el-t7wrapyd">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-3814cvvx">
-            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" id="el-o673a4kf"></path>
-            <polyline points="9 22 9 12 15 12 15 22" id="el-uvq6bmw2"></polyline>
-          </svg>
-          <span class="text-xl font-bold text-green-800" id="el-742nk914">FarmFresh</span>
+          <img src={Logo} className="w-12 h-12" alt="logo"/>
+          <span class="text-xl font-bold text-green-800" id="el-742nk914">Kisan Kart</span>
         </div>
         
         <ul class="hidden md:flex items-center space-x-8" id="el-tw79rgzv">
           <li id="el-293p54ih"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-4coverkc">Home</a></li>
           <li id="el-9xb85dn8"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-ulrtslce">Markets</a></li>
           <li id="el-0pp0a1my"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-lmoloegs">Vendors</a></li>
-          <li id="el-ld3ftfhj"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-1lfl5lpp">Seasonal</a></li>
-          <li id="el-6m5rgrmk"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-6e9d6nqv">Blog</a></li>
           <li id="el-q2cu62o3"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-r9z8gbgh">About</a></li>
-          <li id="el-zpw6bz34"><a href="#" class="text-green-800 hover:text-green-600 transition-colors duration-300" id="el-7dg5tn04">Contact</a></li>
         </ul>
         
         <div class="hidden md:flex items-center space-x-4" id="el-k2s75zti">
