@@ -12,6 +12,7 @@ import {
 import Home from "./pages/Home";
 import Landing from "./pages/Landing";
 import Items from "./pages/Items";
+import Markets from "./pages/Markets";
 
 // Protected route component
 const ProtectedRoute = ({ children }) => {
@@ -50,7 +51,7 @@ export default function App() {
           path="/markets"
           element={
             <ProtectedRoute>
-              <h1>Markets Page</h1>
+              <Markets />
             </ProtectedRoute>
           }
         />
