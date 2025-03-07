@@ -1,7 +1,24 @@
 import React from "react";
 import backgroundImage from "../../assets/mainbg.jpg";
+import { useNavigate, NavLink } from "react-router-dom";
+import { useSignIn } from "@clerk/clerk-react";
 
 export default function Banner() {
+  const navigate = useNavigate();
+  const { signIn } = useSignIn();
+
+  const handleAuthAction = async (redirectPath) => {
+    console.log("button click");
+    try {
+      await signIn.create({
+        strategy: "oauth_google",
+        redirectUrl: `${window.location.origin}${redirectPath}`,
+      });
+    } catch (err) {
+      console.error("Error during authentication:", err);
+    }
+  };
+
   return (
     <div className="relative h-screen w-full">
       <div
@@ -10,7 +27,10 @@ export default function Banner() {
       >
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center"
-          style={{ backgroundImage: `url(${backgroundImage})`, backgroundOpacity: 0.9 }}
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+            backgroundOpacity: 0.9,
+          }}
         ></div>
         <div
           className="container w-full h-full flex items-center justify-center py-16 md:py-24 lg:py-32 relative z-20"
@@ -24,7 +44,7 @@ export default function Banner() {
               Find Fresh Local Produce Near You
             </h1>
             <p
-              className="text-lg md:text-xl text-white mb-8 animate-fade-in-up animation-delay-300"
+              className="text-lg sm:text-sm md:text-xl text-white mb-8 animate-fade-in-up animation-delay-300"
               id="el-2m8aiznz"
             >
               Connect with local farmers' markets, discover fresh produce, and
@@ -34,7 +54,8 @@ export default function Banner() {
               className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-up animation-delay-600"
               id="el-65gga54q"
             >
-              <button
+              <NavLink 
+                to="/markets"
                 className="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 id="el-dlpfhk40"
               >
@@ -44,9 +65,9 @@ export default function Banner() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   id="el-usxanqr4"
                 >
                   <circle cx="11" cy="11" r="8" id="el-pwy6x7bf"></circle>
@@ -59,8 +80,9 @@ export default function Banner() {
                   ></line>
                 </svg>
                 Find Markets Near Me
-              </button>
-              <button
+              </NavLink>
+              <NavLink
+                to="/products" 
                 className="bg-white hover:bg-gray-100 text-green-800 py-3 px-6 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 id="el-4inb6b1l"
               >
@@ -70,9 +92,9 @@ export default function Banner() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   id="el-frogz8cl"
                 >
                   <path
@@ -85,7 +107,7 @@ export default function Banner() {
                   ></path>
                 </svg>
                 Browse Seasonal Products
-              </button>
+              </NavLink>
             </div>
           </div>
         </div>
