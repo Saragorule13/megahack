@@ -7,7 +7,7 @@ export default function Location() {
     <div class="container mx-auto px-4" id="el-hofwi0w9">
       <div class="max-w-4xl mx-auto" id="el-ds43ad6j">
         <div class="text-center mb-8" id="el-4c6vb6i8">
-          <h2 class="text-3xl md:text-4xl font-bold text-green-800 dark:text-green-300 mb-3" id="el-qr71hbxy">Find Markets Near You</h2>
+          <h2 class="text-3xl md:text-4xl font-bold text-green-800 dark:text-green-300 mt-10 mb-3" id="el-qr71hbxy">Find Markets Near You</h2>
           <p class="text-gray-600 dark:text-gray-300 text-lg" id="el-90bk1lvu">Discover fresh produce, artisanal goods, and sustainable products at your local farmers markets</p>
         </div>
         

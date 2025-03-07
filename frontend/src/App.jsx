@@ -20,7 +20,7 @@ const ProtectedRoute = ({ children }) => {
 
 export default function App() {
   return (
-    <div className='font-bold'>
+    <div className="font-bold">
       <Routes>
         <Route path='/' element={<Landing/>} />
         <Route path='/home' element={<Home/>} />
@@ -40,5 +40,5 @@ export default function App() {
         <Route path='/sign-up/*' element={<SignUp routing="path" path="/sign-up" />} />
       </Routes>
     </div>
-  )
+  );
 }
