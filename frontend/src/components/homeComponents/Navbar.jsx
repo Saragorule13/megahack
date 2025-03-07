@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           
           <ul className="hidden md:flex items-center space-x-8" id="el-tw79rgzv">
-            <li id="el-293p54ih"><Link to="/" className="text-white hover:text-green-600 transition-colors duration-300">Home</Link></li>
+            <li id="el-293p54ih"><Link to="/home" className="text-white hover:text-green-600 transition-colors duration-300">Home</Link></li>
             <li id="el-9xb85dn8"><Link to="/markets" className="text-white hover:text-green-600 transition-colors duration-300">Markets</Link></li>
             <li id="el-0pp0a1my"><Link to="/vendors" className="text-white hover:text-green-600 transition-colors duration-300">Vendors</Link></li>
             <li id="el-q2cu62o3"><Link to="/about" className="text-white hover:text-green-600 transition-colors duration-300">About</Link></li>
