@@ -1,5 +1,5 @@
 import React from 'react'
-import { asparagus } from '../../assets/assets'
+import { asparagus, beans, brinjal, cucumber, karela, lauki, okra } from '../../assets/assets'
 
 export default function Season() {
   return (
@@ -53,21 +53,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-9q2pg17n">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-hycu0e1t">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-7ygg4gh4">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-h3fj1j0b">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-9iznym08">
-                  <path d="M2 22l1-1h18l1 1" id="el-8z1flmpq"></path>
-                  <path d="M5.6 8.6c-.6.6-1 1.5-1 2.4 0 .9-.4 1.8-1 2.4L2 15h10M21.4 8.6c.6.6 1 1.5 1 2.4 0 .9.4 1.8 1 2.4l1.6 1.6h-10" id="el-bpgnatik"></path>
-                  <path d="M10 2v10.5" id="el-qs8k7vc7"></path>
-                  <path d="M14 2v10.5" id="el-w3sth23h"></path>
-                </svg>
-              </div>
+              <img src={lauki} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-qjtvcdpp">
               <span class="text-white text-sm" id="el-cf5t11ky">Peak Season</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-kitqgd76">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-14b3a3qq">Asparagus</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-14b3a3qq">Lauki</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-ycg689pt">Apr - Jun</p>
           </div>
         </div>
@@ -76,20 +69,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-gkq4k074">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-n5kup1h2">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-fgo8up52">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-vagvlyq9">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-pm2otrqi">
-                  <path d="M18 8c0 4.5-6 9-6 9s-6-4.5-6-9a6 6 0 0 1 12 0" id="el-stb3shx1"></path>
-                  <path d="M6 8h12" id="el-un5vupae"></path>
-                  <path d="M12 2v6" id="el-1nzzq6td"></path>
-                </svg>
-              </div>
+              <img src={cucumber} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-123jnmz3">
               <span class="text-white text-sm" id="el-mz34b9lj">Peak Season</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-52x5vqpv">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-1oxfyxpa">Strawberries</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-1oxfyxpa">Cucumber</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-br6599ia">Apr - Jun</p>
           </div>
         </div>
@@ -98,18 +85,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-pzpxjsdm">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-f17esp8x">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-igo6u07r">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-rtv9akx3">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-1hpuzbl3">
-                  <path d="M11.2 21.364a1 1 0 0 0 1.6 0l8.4-14a1 1 0 0 0-1.6-1.2l-7.6 12.8L8.4 14.8a1 1 0 1 0-1.6 1.2z" id="el-bdb4mg1c"></path>
-                </svg>
-              </div>
+              <img src={karela} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-zduvcytt">
               <span class="text-white text-sm" id="el-lq0241i9">Just Starting</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-8aoa1vio">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-sl01syyf">Peas</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-sl01syyf">Karela (Bitter Guord)</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-inbarq08">Mar - Jun</p>
           </div>
         </div>
@@ -118,20 +101,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-cph74hzb">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-bewk55hc">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-oh3hnj83">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-wrb51r59">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-g8g9cnfm">
-                  <path d="M4 14c1-7 5.5-11.5 11.5-11.5" id="el-enwt94oz"></path>
-                  <path d="M2 21c0-4 2-12 4-13" id="el-hbu2r3y8"></path>
-                  <path d="M9 6.5A15 6 0 0 1 22 10c0 3.5-2 6-4 6-1 0-2-.5-2-2s-1-2-2-2-2 1-2 2-1 2-2 2" id="el-8b2mzu72"></path>
-                </svg>
-              </div>
+                <img src={brinjal} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-guk0nwho">
               <span class="text-white text-sm" id="el-ccymmuj7">Peak Season</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-4n61crq1">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-gu3fy4y0">Radishes</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-gu3fy4y0">Brinjal (Baingan)</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-rtzor5iq">Mar - Jun</p>
           </div>
         </div>
@@ -139,20 +116,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-9nbg2s8m">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-eovg1uq6">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-x59z7avy">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-7wleqw5g">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-nqh3b11i">
-                  <path d="m2 22 1-1h18l1 1" id="el-lq73rnoq"></path>
-                  <path d="M7 12a5 5 0 0 1 10 0" id="el-pitn6c0j"></path>
-                  <path d="M12 7V3" id="el-h6cxxv7b"></path>
-                </svg>
-              </div>
+              <img src={okra} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-3m4m6hc1">
               <span class="text-white text-sm" id="el-0lcpw69g">Early Season</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-yi7ey6s1">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-1agziu22">Arugula</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-1agziu22">Okra (Bhindi)</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-17cir583">Mar - Jun</p>
           </div>
         </div>
@@ -161,26 +132,14 @@ export default function Season() {
         <div class="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group" id="el-ib2pvf8y">
           <div class="relative aspect-square bg-green-100 dark:bg-green-900 overflow-hidden" id="el-o6f02j4z">
             <div class="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800" id="el-41oke0wh">
-              <div class="w-24 h-24 bg-green-200 dark:bg-green-800 rounded-full flex items-center justify-center" id="el-z0ix7i6j">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600 dark:text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="el-tww0cv53">
-                  <path d="M12 2a9 9 0 0 0-9 9c0 1.7.5 3.3 1.5 4.5" id="el-1thick2i"></path>
-                  <path d="M7 21h.01" id="el-w32amx8s"></path>
-                  <path d="M14 21h.01" id="el-o6bx8nfz"></path>
-                  <path d="M17 21h.01" id="el-06oam97h"></path>
-                  <path d="M10 21h.01" id="el-y7uiwax8"></path>
-                  <path d="M4.5 15.5c1-1 2.5-1.5 4-1" id="el-co84eqfn"></path>
-                  <path d="M20.5 15.5c-1-1-2.5-1.5-4-1" id="el-d1go7wsl"></path>
-                  <path d="M12 7a2 2 0 0 0-2 2v10.5" id="el-hfynemsc"></path>
-                  <path d="M12 7a2 2 0 0 1 2 2v10.5" id="el-lohsezg8"></path>
-                </svg>
-              </div>
+              <img src={beans} alt="" />
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3" id="el-u4j0q1l6">
               <span class="text-white text-sm" id="el-jitxi52m">Just Starting</span>
             </div>
           </div>
           <div class="p-3 text-center" id="el-x8y5jv6n">
-            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-4xdbirhy">Rhubarb</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white" id="el-4xdbirhy">Green beans</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400" id="el-kbq7nuwv">Apr - Jun</p>
           </div>
         </div>
