@@ -1,37 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { farmer } from "../../assets/assets";
-// import { useSignIn } from "@clerk/clerk-react";
 
 export default function Banner() {
-  // const navigate = useNavigate();
-  // const { signIn } = useSignIn();
-
-  // const handleAuthAction = async (redirectPath) => {
-  //   console.log("button click");
-  //   try {
-  //     await signIn.create({
-  //       strategy: "oauth_google",
-  //       redirectUrl: `${window.location.origin}${redirectPath}`,
-  //     });
-  //   } catch (err) {
-  //     console.error("Error during authentication:", err);
-  //   }
-  // };
-
   return (
     <div className="relative h-screen w-full">
       <div
         className="absolute inset-0 bg-gradient-to-r from-green-900/30 to-green-700/30 z-10 flex items-center justify-center"
         id="el-8iwzgzsj"
       >
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover bg-center"
-          // style={{
-          //   backgroundImage: `url(${backgroundImage})`,
-          //   backgroundOpacity: 0.9,
-          // }}
-        >
+        <div className="absolute inset-0 bg-no-repeat bg-cover bg-center">
           {/* Background Video */}
           <video
             className="absolute inset-0 w-full h-full object-cover"
@@ -66,7 +44,7 @@ export default function Banner() {
               id="el-65gga54q"
             >
               <NavLink
-                to="/markets"
+                to="/home"
                 className="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 id="el-dlpfhk40"
               >
@@ -93,7 +71,7 @@ export default function Banner() {
                 Find Markets Near Me
               </NavLink>
               <NavLink
-                to="/products"
+                to="/items"
                 className="bg-white hover:bg-gray-100 text-green-800 py-3 px-6 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 id="el-4inb6b1l"
               >

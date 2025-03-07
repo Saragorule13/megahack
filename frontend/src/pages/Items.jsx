@@ -1,17 +1,17 @@
 import React from "react";
 import {
-  asparagus,
-  beans,
-  brinjal,
-  cucumber,
-  jamun,
-  karela,
   lauki,
-  mango,
-  musk,
-  okra,
-  pineapple,
-  watermelon,
+  // asparagus,
+  // beans,
+  // brinjal,
+  // cucumber,
+  // jamun,
+  // karela,
+  // mango,
+  // musk,
+  // okra,
+  // pineapple,
+  // watermelon,
 } from "../assets/assets";
 import Navbar from "../components/homeComponents/Navbar";
 // import { asparagus, beans, brinjal, cucumber, jamun, karela, lauki, mango, musk, okra, pineapple, watermelon } from '../../assets/assets'
